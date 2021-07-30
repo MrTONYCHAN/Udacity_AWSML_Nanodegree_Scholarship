@@ -132,4 +132,18 @@ When a note is either added or removed from your input track during inference, w
 
 
 
+In this lesson, we learned many advanced machine learning techniques. Specifically, we learned:
+-----------------------------------------------------------------------------------------------
 
+Computer vision and its application
+How to train a computer vision project with AWS DeepLens
+Reinforcement learning and its application
+How to train a reinforcement learning model with AWS DeepRacer
+Generative AI
+How to train a GAN and AR-CNN model with AWS DeepComposer
+Now, you should be able to:
+
+Identify AWS machine learning offerings and how different services are used for different applications
+Explain the fundamentals of computer vision and a couple of popular tasks
+Describe how reinforcement learning works in the context of AWS DeepRacer
+Explain the fundamentals of Generative AI, its applications, and three famous generative AI model in the context of music and AWS DeepComposer
