@@ -147,3 +147,65 @@ Identify AWS machine learning offerings and how different services are used for 
 Explain the fundamentals of computer vision and a couple of popular tasks
 Describe how reinforcement learning works in the context of AWS DeepRacer
 Explain the fundamentals of Generative AI, its applications, and three famous generative AI model in the context of music and AWS DeepComposer
+
+
+Lesson 3:
+Machine Learning with AWS
+ 1. Machine Learning with AWS
+ 2. Lesson Overview
+ 3. AWS Account Requirements
+ 4. Computer Vision and Its Applications
+ 5. Computer Vision with AWS DeepLens
+ 6. A Sample Project with AWS DeepLens
+ 7. Quiz: Computer Vision
+ 8. Reinforcement Learning and Its Applications
+ 9. Reinforcement Learning with AWS DeepRacer
+ 10. Demo: Reinforcement Learning with AWS DeepRacer
+ 11. Quiz: Reinforcement Learning
+ 12. AWS DeepRacer Reinforcement Learning Exercise
+ 13. Exercise Solution: AWS DeepRacer
+ 14. Introduction to Generative AI
+ 15. Generative AI with AWS DeepComposer
+ 16. GANs with AWS DeepComposer
+ 17. AR-CNN with AWS DeepComposer
+ 18. Quiz: Generative AI
+ 19. Demo: Create Music with AWS DeepComposer
+ 20. Exercise: Generate Music with AWS DeepComposer
+ 21. Build a Custom GAN Part 1: Notebooks and Data Preparation (Optional)
+ 22. Build a Custom GAN Part 2: Training and Evaluation (Optional)
+ 23. Lesson Review
+ 24. Glossary
+
+
+# Glossary
+
+Action: For every state, an agent needs to take an action toward achieving its goal.
+
+Agent: The piece of software you are training is called an agent. It makes decisions in an environment to reach a goal.
+
+Discriminator: A neural network trained to differentiate between real and synthetic data.
+
+Discriminator loss: Evaluates how well the discriminator differentiates between real and fake data.
+
+Edit event: When a note is either added or removed from your input track during inference.
+
+Environment: The environment is the surrounding area within which the agent interacts.
+
+Exploration versus exploitation: An agent should exploit known information from previous experiences to achieve higher cumulative rewards, but it also needs to explore to gain 
+new experiences that can be used in choosing the best actions in the future.
+
+Generator: A neural network that learns to create new data resembling the source data on which it was trained.
+
+Generator loss: Measures how far the output data deviates from the real data present in the training dataset.
+
+Hidden layer: A layer that occurs between the output and input layers. Hidden layers are tailored to a specific task.
+
+Input layer: The first layer in a neural network. This layer receives all data that passes through the neural network.
+
+Output layer: The last layer in a neural network. This layer is where the predictions are generated based on the information captured in the hidden layers.
+
+Piano roll: A two-dimensional piano roll matrix that represents input tracks. Time is on the horizontal axis and pitch is on the vertical axis.
+
+Reward: Feedback is given to an agent for each action it takes in a given state. This feedback is a numerical reward.
+
+
