@@ -24,24 +24,39 @@ Imagine you analyzed several stocks and calculated the ideal price, or limit pri
 
 # Choice A
 stock_limit_prices = {'LUX': 62.48, 'AAPL': 127.67, 'NVDA': 161.24}
+
 for stock_ticker, stock_limit_price in buy_prices.items():
+    
     if stock_limit_price <= get_current_stock_price(ticker):
+        
         buy_stock(ticker)
+    
     else:
+        
         watchlist_stock(ticker)
 # Choice B
 prices = {'LUX': 62.48, 'AAPL': 127.67, 'NVDA': 161.24}
+
 for ticker, price in prices.items():
+    
     if price <= current_price(ticker):
+        
         buy(ticker)
+    
     else:
+        
         watchlist(ticker)
 # Choice C
 limit_prices = {'LUX': 62.48, 'AAPL': 127.67, 'NVDA': 161.24}
+
 for ticker, limit in limit_prices.items():
+    
     if limit <= get_current_price(ticker):
+        
         buy(ticker)
+    
     else:
+        
         watchlist(ticker)
         
  # Which code is most clean
